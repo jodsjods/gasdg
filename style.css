@@ -1,0 +1,92 @@
+html,
+body {
+  height: 100%;
+  background-color: #ebaae7;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.cover-page {
+  position: relative;
+  text-align: center;
+  color: white;
+  border: 2px solid #000; /* Border color and width */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.fam {
+  position: relative;
+  text-align: center;
+  color: white;
+  border: 2px solid #000; /* Border color and width */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.fam{
+  width: 50%;
+  height: 120%;
+  object-fit: cover; /* Ensures the image covers the area */
+}
+#kriz{
+  width: 30%;
+  height: 50%;
+  object-fit: cover; /* Ensures the image covers the area */
+}
+.cover-page img {
+  width: 100%;
+  height: 120%;
+  object-fit: cover; /* Ensures the image covers the area */
+}
+
+.cover-page .cover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.cover-page-container {
+  max-width: 1000px; /* Adjust this value to set the maximum width */
+  margin: 0 auto; /* Center the container */
+}
+
+.cover-page .cover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.featurette-image {
+    width: 450px;
+    height:450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.custom-jumbotron {
+  border: 0.5px solid #000; /* Border color and width */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the border */
+  background-color: #f8f9fa; /* Background color */
+  text-align: center;
+}
+.custom-video {
+  max-width: 100%; /* Make sure the video fits inside the container */
+  border-radius: 8px; /* Rounded corners for the video */
+}
